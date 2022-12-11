@@ -43,10 +43,10 @@ chord_##name {                                    \
     LAYER_CHORD(ch_down_ar, &kp QMARK, 6 16, SYMBOL) // f+n -> ↓
     LAYER_CHORD(ch_up_arro, &kp QMARK, 7 17, SYMBOL) // o+e -> ↑
     LAYER_CHORD(ch_right_a, &kp QMARK, 8 18, SYMBOL) // u+i -> →
-    CHORD(ch_bs_ing, &ch_bs_ing, 18 16 14) // i+n+g -> <BS>ing
-    CHORD(ch_bs_n_t, &ch_bs_n_t, 16 9 13) // n+'+t -> <BS>n't
-    CHORD(ch_bs_ve, &ch_bs_ve, 9 22 17) // '+v+e -> <BS>'ve
-    CHORD(ch_bs_re, &ch_bs_re, 9 11 17) // '+r+e -> <BS>'re
+    CHORD(ch__bs_ing, &ch__bs_ing, 18 16 14) // i+n+g -> <BS>ing
+    CHORD(ch__bs_n_t, &ch__bs_n_t, 16 9 13) // n+'+t -> <BS>n't
+    CHORD(ch__bs_ve, &ch__bs_ve, 9 22 17) // '+v+e -> <BS>'ve
+    CHORD(ch__bs_re, &ch__bs_re, 9 11 17) // '+r+e -> <BS>'re
     CHORD(ch_the, &ch_the, 13 26 17) // t+h+e -> the
     CHORD(ch_be, &ch_be, 4 17 32) // b+e+space -> be
     CHORD(ch_of, &ch_of, 7 6 32) // o+f+space -> of
@@ -485,7 +485,7 @@ chord_##name {                                    \
     CHORD(ch_somervi, &ch_somervi, 12 17 22) // s+e+v -> Somerville
     CHORD(ch_boston, &ch_boston, 4 12 16) // b+s+n -> Boston
     CHORD(ch_massach, &ch_massach, 10 26 8) // c+h+u -> Massachusetts
-    CHORD(ch_, &ch_, 0 13 1)
+    CHORD(ch_x, &ch_x, 0 13 1)
   };
 };
 
@@ -514,10 +514,10 @@ name: name##_macro {                  \
     CHMAC(ch_qmark, &kp BSPC &kp QMARK &kp SPC &sk LSHFT) // i+, -> <BS>? <SKLS>
     CHMAC(ch_colon, &kp BSPC &kp COLON &kp SPC) // a+ret -> <BS>:
     CHMAC(ch_semi, &kp BSPC &kp SEMI &kp SPC) // a+' -> <BS>;
-    CHMAC(ch_bs_ing, &kp BSPC &kp I &kp N &kp G &kp SPC) // i+n+g -> <BS>ing
-    CHMAC(ch_bs_n_t, &kp BSPC &kp N &kp APOS &kp T &kp SPC) // n+'+t -> <BS>n't
-    CHMAC(ch_bs_ve, &kp BSPC &kp APOS &kp V &kp E &kp SPC) // '+v+e -> <BS>'ve
-    CHMAC(ch_bs_re, &kp BSPC &kp APOS &kp R &kp E &kp SPC) // '+r+e -> <BS>'re
+    CHMAC(ch__bs_ing, &kp BSPC &kp I &kp N &kp G &kp SPC) // i+n+g -> <BS>ing
+    CHMAC(ch__bs_n_t, &kp BSPC &kp N &kp APOS &kp T &kp SPC) // n+'+t -> <BS>n't
+    CHMAC(ch__bs_ve, &kp BSPC &kp APOS &kp V &kp E &kp SPC) // '+v+e -> <BS>'ve
+    CHMAC(ch__bs_re, &kp BSPC &kp APOS &kp R &kp E &kp SPC) // '+r+e -> <BS>'re
     CHMAC(ch_the, &kp T &kp H &kp E &kp SPC) // t+h+e -> the
     CHMAC(ch_be, &kp B &kp E &kp SPC) // b+e+space -> be
     CHMAC(ch_of, &kp O &kp F &kp SPC) // o+f+space -> of
@@ -956,6 +956,6 @@ name: name##_macro {                  \
     CHMAC(ch_somervi, &kp LS(S) &kp O &kp M &kp E &kp R &kp V &kp I &kp L &kp L &kp E &kp SPC) // s+e+v -> Somerville
     CHMAC(ch_boston, &kp LS(B) &kp O &kp S &kp T &kp O &kp N &kp SPC) // b+s+n -> Boston
     CHMAC(ch_massach, &kp LS(M) &kp A &kp S &kp S &kp A &kp C &kp H &kp U &kp S &kp E &kp T &kp T &kp S &kp SPC) // c+h+u -> Massachusetts
-    CHMAC(ch_, &kp LS(W) &kp H &kp E &kp A &kp T &kp L &kp A &kp N &kp D &kp SPC)
+    CHMAC(ch_x, &kp LS(W) &kp H &kp E &kp A &kp T &kp L &kp A &kp N &kp D &kp SPC)
   };
 };
