@@ -17,7 +17,7 @@
 
 #include "chords.keymap"
 
-#define LANGUAGE LS(F1)
+#define LANGUAGE F13
 #define SCREENSHOT LG(LS(N4))
 #define LOCKSCR LG(LC(Q))
 #define ALFRED LG(SPC)
