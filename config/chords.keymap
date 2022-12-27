@@ -48,34 +48,34 @@ chord_##name {                                    \
     CHORD(ch__bs_ve, &ch__bs_ve, 9 22 17) // '+v+e -> <BS>'ve
     CHORD(ch__bs_re, &ch__bs_re, 9 11 17) // '+r+e -> <BS>'re
     CHORD(ch_the, &ch_the, 13 26 17) // t+h+e -> the
-    CHORD(ch_be, &ch_be, 4 17 32) // b+e+space -> be
-    CHORD(ch_of, &ch_of, 7 6 32) // o+f+space -> of
+    CHORD(ch_be, &ch_be, 4 17 30) // b+e+dup -> be
+    CHORD(ch_of, &ch_of, 7 6 30) // o+f+dup -> of
     CHORD(ch_and, &ch_and, 19 16 23) // a+n+d -> and
-    CHORD(ch_a, &ch_a, 19 32) // a+space -> a
+    CHORD(ch_a, &ch_a, 19 30) // a+dup -> a
     CHORD(ch_a1, &ch_a1, 19 31) // a+bksp -> A
-    CHORD(ch_to, &ch_to, 13 7 32) // t+o+space -> to
-    CHORD(ch_in, &ch_in, 18 16 32) // i+n+space -> in
-    CHORD(ch_he, &ch_he, 26 17 32) // h+e+space -> he
+    CHORD(ch_to, &ch_to, 13 7 30) // t+o+dup -> to
+    CHORD(ch_in, &ch_in, 18 16 30) // i+n+dup -> in
+    CHORD(ch_he, &ch_he, 26 17 30) // h+e+dup -> he
     CHORD(ch_have, &ch_have, 26 19 22) // h+a+v -> have
-    CHORD(ch_it, &ch_it, 18 13 32) // i+t+space -> it
+    CHORD(ch_it, &ch_it, 18 13 30) // i+t+dup -> it
     CHORD(ch_that, &ch_that, 13 26 19) // t+h+a -> that
     CHORD(ch_for, &ch_for, 6 7 11) // f+o+r -> for
     CHORD(ch_they, &ch_they, 13 26 2) // t+h+y -> they
-    CHORD(ch_i, &ch_i, 18 32) // i+space -> I
+    CHORD(ch_i, &ch_i, 18 30) // i+dup -> I
     CHORD(ch_with, &ch_with, 0 18 26) // w+i+h -> with
-    CHORD(ch_as, &ch_as, 19 12 32) // a+s+space -> as
+    CHORD(ch_as, &ch_as, 19 12 30) // a+s+dup -> as
     CHORD(ch_not, &ch_not, 16 7 13) // n+o+t -> not
-    CHORD(ch_on, &ch_on, 7 16 32) // o+n+space -> on
+    CHORD(ch_on, &ch_on, 7 16 30) // o+n+dup -> on
     CHORD(ch_she, &ch_she, 12 26 17) // s+h+e -> she
-    CHORD(ch_at, &ch_at, 19 13 32) // a+t+space -> at
-    CHORD(ch_by, &ch_by, 4 2 32) // b+y+space -> by
+    CHORD(ch_at, &ch_at, 19 13 30) // a+t+dup -> at
+    CHORD(ch_by, &ch_by, 4 2 30) // b+y+dup -> by
     CHORD(ch_this, &ch_this, 13 26 12) // t+h+s -> this
-    CHORD(ch_we, &ch_we, 0 17 32) // w+e+space -> we
+    CHORD(ch_we, &ch_we, 0 17 30) // w+e+dup -> we
     CHORD(ch_you, &ch_you, 2 7 8) // y+o+u -> you
-    CHORD(ch_do, &ch_do, 23 7 32) // d+o+space -> do
+    CHORD(ch_do, &ch_do, 23 7 30) // d+o+dup -> do
     CHORD(ch_but, &ch_but, 18 8 13) // i+u+t -> but
     CHORD(ch_from, &ch_from, 11 7 15) // r+o+m -> from
-    CHORD(ch_or, &ch_or, 7 11 32) // o+r+space -> or
+    CHORD(ch_or, &ch_or, 7 11 30) // o+r+dup -> or
     CHORD(ch_which, &ch_which, 26 18 10) // h+i+c -> which
     CHORD(ch_one, &ch_one, 7 16 17) // o+n+e -> one
     CHORD(ch_would, &ch_would, 0 7 8) // w+o+u -> would
@@ -88,16 +88,16 @@ chord_##name {                                    \
     CHORD(ch_when, &ch_when, 0 26 17) // w+h+e -> when
     CHORD(ch_can, &ch_can, 10 19 16) // c+a+n -> can
     CHORD(ch_more, &ch_more, 15 11 17) // m+r+e -> more
-    CHORD(ch_if, &ch_if, 18 6 32) // i+f+space -> if
-    CHORD(ch_no, &ch_no, 16 17 32) // n+e+space -> no
+    CHORD(ch_if, &ch_if, 18 6 30) // i+f+dup -> if
+    CHORD(ch_no, &ch_no, 16 17 30) // n+e+dup -> no
     CHORD(ch_man, &ch_man, 15 19 16) // m+a+n -> man
     CHORD(ch_out, &ch_out, 7 8 13) // o+u+t -> out
     CHORD(ch_other, &ch_other, 7 13 11) // o+t+r -> other
-    CHORD(ch_so, &ch_so, 12 7 32) // s+o+space -> so
+    CHORD(ch_so, &ch_so, 12 7 30) // s+o+dup -> so
     CHORD(ch_what, &ch_what, 0 26 13) // w+h+t -> what
     CHORD(ch_time, &ch_time, 13 15 17) // t+m+e -> time
-    CHORD(ch_up, &ch_up, 8 3 32) // u+p+space -> up
-    CHORD(ch_go, &ch_go, 14 7 32) // g+o+space -> go
+    CHORD(ch_up, &ch_up, 8 3 30) // u+p+dup -> up
+    CHORD(ch_go, &ch_go, 14 7 30) // g+o+dup -> go
     CHORD(ch_about, &ch_about, 4 7 8) // b+o+u -> about
     CHORD(ch_than, &ch_than, 13 19 16) // t+a+n -> than
     CHORD(ch_into, &ch_into, 18 16 7) // i+n+o -> into
@@ -250,17 +250,17 @@ chord_##name {                                    \
     CHORD(ch_line, &ch_line, 1 16 17) // l+n+e -> line
     CHORD(ch_his, &ch_his, 26 18 12) // h+i+s -> his
     CHORD(ch_her, &ch_her, 26 17 11) // h+e+r -> her
-    CHORD(ch_an, &ch_an, 19 16 32) // a+n+space -> an
-    CHORD(ch_my, &ch_my, 15 2 32) // m+y+space -> my
+    CHORD(ch_an, &ch_an, 19 16 30) // a+n+dup -> an
+    CHORD(ch_my, &ch_my, 15 2 30) // m+y+dup -> my
     CHORD(ch_their, &ch_their, 26 18 11) // h+i+r -> their
-    CHORD(ch_me, &ch_me, 15 17 32) // m+e+space -> me
+    CHORD(ch_me, &ch_me, 15 17 30) // m+e+dup -> me
     CHORD(ch_him, &ch_him, 4 18 15) // b+i+m -> him
     CHORD(ch_your, &ch_your, 2 7 11) // y+o+r -> your
     CHORD(ch_its, &ch_its, 18 13 12) // i+t+s -> its
     CHORD(ch_two, &ch_two, 13 0 7) // t+w+o -> two
     CHORD(ch_our, &ch_our, 7 8 11) // o+u+r -> our
-    CHORD(ch_us, &ch_us, 8 12 32) // u+s+space -> us
-    CHORD(ch_is, &ch_is, 18 12 32) // i+s+space -> is
+    CHORD(ch_us, &ch_us, 8 12 30) // u+s+dup -> us
+    CHORD(ch_is, &ch_is, 18 12 30) // i+s+dup -> is
     CHORD(ch_was, &ch_was, 0 19 12) // w+a+s -> was
     CHORD(ch_are, &ch_are, 19 11 17) // a+r+e -> are
     CHORD(ch_had, &ch_had, 26 19 23) // h+a+d -> had
@@ -416,7 +416,7 @@ chord_##name {                                    \
     CHORD(ch_box, &ch_box, 4 7 25) // b+o+x -> box
     CHORD(ch_noun, &ch_noun, 16 7 8) // n+o+u -> noun
     CHORD(ch_week, &ch_week, 0 17 24) // w+e+k -> week
-    CHORD(ch_oh, &ch_oh, 7 26 32) // o+h+space -> oh
+    CHORD(ch_oh, &ch_oh, 7 26 30) // o+h+dup -> oh
     CHORD(ch_free, &ch_free, 6 11 17) // f+r+e -> free
     CHORD(ch_dry, &ch_dry, 23 11 2) // d+r+y -> dry
     CHORD(ch_ago, &ch_ago, 19 14 7) // a+g+o -> ago
@@ -424,7 +424,7 @@ chord_##name {                                    \
     CHORD(ch_hot, &ch_hot, 26 7 13) // h+o+t -> hot
     CHORD(ch_ball, &ch_ball, 4 19 1) // b+a+l -> ball
     CHORD(ch_yet, &ch_yet, 2 17 13) // y+e+t -> yet
-    CHORD(ch_am, &ch_am, 19 15 32) // a+m+space -> am
+    CHORD(ch_am, &ch_am, 19 15 30) // a+m+dup -> am
     CHORD(ch_arm, &ch_arm, 19 11 15) // a+r+m -> arm
     CHORD(ch_ice, &ch_ice, 18 10 17) // i+c+e -> ice
     CHORD(ch_matter, &ch_matter, 15 19 13) // m+a+t -> matter
@@ -519,34 +519,34 @@ name: name##_macro {                  \
     CHMAC(ch__bs_ve, &kp BSPC &kp APOS &kp V &kp E &kp SPC) // '+v+e -> <BS>'ve
     CHMAC(ch__bs_re, &kp BSPC &kp APOS &kp R &kp E &kp SPC) // '+r+e -> <BS>'re
     CHMAC(ch_the, &kp T &kp H &kp E &kp SPC) // t+h+e -> the
-    CHMAC(ch_be, &kp B &kp E &kp SPC) // b+e+space -> be
-    CHMAC(ch_of, &kp O &kp F &kp SPC) // o+f+space -> of
+    CHMAC(ch_be, &kp B &kp E &kp SPC) // b+e+dup -> be
+    CHMAC(ch_of, &kp O &kp F &kp SPC) // o+f+dup -> of
     CHMAC(ch_and, &kp A &kp N &kp D &kp SPC) // a+n+d -> and
-    CHMAC(ch_a, &kp A &kp SPC) // a+space -> a
+    CHMAC(ch_a, &kp A &kp SPC) // a+dup -> a
     CHMAC(ch_a1, &kp LS(A) &kp SPC) // a+bksp -> A
-    CHMAC(ch_to, &kp T &kp O &kp SPC) // t+o+space -> to
-    CHMAC(ch_in, &kp I &kp N &kp SPC) // i+n+space -> in
-    CHMAC(ch_he, &kp H &kp E &kp SPC) // h+e+space -> he
+    CHMAC(ch_to, &kp T &kp O &kp SPC) // t+o+dup -> to
+    CHMAC(ch_in, &kp I &kp N &kp SPC) // i+n+dup -> in
+    CHMAC(ch_he, &kp H &kp E &kp SPC) // h+e+dup -> he
     CHMAC(ch_have, &kp H &kp A &kp V &kp E &kp SPC) // h+a+v -> have
-    CHMAC(ch_it, &kp I &kp T &kp SPC) // i+t+space -> it
+    CHMAC(ch_it, &kp I &kp T &kp SPC) // i+t+dup -> it
     CHMAC(ch_that, &kp T &kp H &kp A &kp T &kp SPC) // t+h+a -> that
     CHMAC(ch_for, &kp F &kp O &kp R &kp SPC) // f+o+r -> for
     CHMAC(ch_they, &kp T &kp H &kp E &kp Y &kp SPC) // t+h+y -> they
-    CHMAC(ch_i, &kp LS(I) &kp SPC) // i+space -> I
+    CHMAC(ch_i, &kp LS(I) &kp SPC) // i+dup -> I
     CHMAC(ch_with, &kp W &kp I &kp T &kp H &kp SPC) // w+i+h -> with
-    CHMAC(ch_as, &kp A &kp S &kp SPC) // a+s+space -> as
+    CHMAC(ch_as, &kp A &kp S &kp SPC) // a+s+dup -> as
     CHMAC(ch_not, &kp N &kp O &kp T &kp SPC) // n+o+t -> not
-    CHMAC(ch_on, &kp O &kp N &kp SPC) // o+n+space -> on
+    CHMAC(ch_on, &kp O &kp N &kp SPC) // o+n+dup -> on
     CHMAC(ch_she, &kp S &kp H &kp E &kp SPC) // s+h+e -> she
-    CHMAC(ch_at, &kp A &kp T &kp SPC) // a+t+space -> at
-    CHMAC(ch_by, &kp B &kp Y &kp SPC) // b+y+space -> by
+    CHMAC(ch_at, &kp A &kp T &kp SPC) // a+t+dup -> at
+    CHMAC(ch_by, &kp B &kp Y &kp SPC) // b+y+dup -> by
     CHMAC(ch_this, &kp T &kp H &kp I &kp S &kp SPC) // t+h+s -> this
-    CHMAC(ch_we, &kp W &kp E &kp SPC) // w+e+space -> we
+    CHMAC(ch_we, &kp W &kp E &kp SPC) // w+e+dup -> we
     CHMAC(ch_you, &kp Y &kp O &kp U &kp SPC) // y+o+u -> you
-    CHMAC(ch_do, &kp D &kp O &kp SPC) // d+o+space -> do
+    CHMAC(ch_do, &kp D &kp O &kp SPC) // d+o+dup -> do
     CHMAC(ch_but, &kp B &kp U &kp T &kp SPC) // i+u+t -> but
     CHMAC(ch_from, &kp F &kp R &kp O &kp M &kp SPC) // r+o+m -> from
-    CHMAC(ch_or, &kp O &kp R &kp SPC) // o+r+space -> or
+    CHMAC(ch_or, &kp O &kp R &kp SPC) // o+r+dup -> or
     CHMAC(ch_which, &kp W &kp H &kp I &kp C &kp H &kp SPC) // h+i+c -> which
     CHMAC(ch_one, &kp O &kp N &kp E &kp SPC) // o+n+e -> one
     CHMAC(ch_would, &kp W &kp O &kp U &kp L &kp D &kp SPC) // w+o+u -> would
@@ -559,16 +559,16 @@ name: name##_macro {                  \
     CHMAC(ch_when, &kp W &kp H &kp E &kp N &kp SPC) // w+h+e -> when
     CHMAC(ch_can, &kp C &kp A &kp N &kp SPC) // c+a+n -> can
     CHMAC(ch_more, &kp M &kp O &kp R &kp E &kp SPC) // m+r+e -> more
-    CHMAC(ch_if, &kp I &kp F &kp SPC) // i+f+space -> if
-    CHMAC(ch_no, &kp N &kp O &kp SPC) // n+e+space -> no
+    CHMAC(ch_if, &kp I &kp F &kp SPC) // i+f+dup -> if
+    CHMAC(ch_no, &kp N &kp O &kp SPC) // n+e+dup -> no
     CHMAC(ch_man, &kp M &kp A &kp N &kp SPC) // m+a+n -> man
     CHMAC(ch_out, &kp O &kp U &kp T &kp SPC) // o+u+t -> out
     CHMAC(ch_other, &kp O &kp T &kp H &kp E &kp R &kp SPC) // o+t+r -> other
-    CHMAC(ch_so, &kp S &kp O &kp SPC) // s+o+space -> so
+    CHMAC(ch_so, &kp S &kp O &kp SPC) // s+o+dup -> so
     CHMAC(ch_what, &kp W &kp H &kp A &kp T &kp SPC) // w+h+t -> what
     CHMAC(ch_time, &kp T &kp I &kp M &kp E &kp SPC) // t+m+e -> time
-    CHMAC(ch_up, &kp U &kp P &kp SPC) // u+p+space -> up
-    CHMAC(ch_go, &kp G &kp O &kp SPC) // g+o+space -> go
+    CHMAC(ch_up, &kp U &kp P &kp SPC) // u+p+dup -> up
+    CHMAC(ch_go, &kp G &kp O &kp SPC) // g+o+dup -> go
     CHMAC(ch_about, &kp A &kp B &kp O &kp U &kp T &kp SPC) // b+o+u -> about
     CHMAC(ch_than, &kp T &kp H &kp A &kp N &kp SPC) // t+a+n -> than
     CHMAC(ch_into, &kp I &kp N &kp T &kp O &kp SPC) // i+n+o -> into
@@ -721,17 +721,17 @@ name: name##_macro {                  \
     CHMAC(ch_line, &kp L &kp I &kp N &kp E &kp SPC) // l+n+e -> line
     CHMAC(ch_his, &kp H &kp I &kp S &kp SPC) // h+i+s -> his
     CHMAC(ch_her, &kp H &kp E &kp R &kp SPC) // h+e+r -> her
-    CHMAC(ch_an, &kp A &kp N &kp SPC) // a+n+space -> an
-    CHMAC(ch_my, &kp M &kp Y &kp SPC) // m+y+space -> my
+    CHMAC(ch_an, &kp A &kp N &kp SPC) // a+n+dup -> an
+    CHMAC(ch_my, &kp M &kp Y &kp SPC) // m+y+dup -> my
     CHMAC(ch_their, &kp T &kp H &kp E &kp I &kp R &kp SPC) // h+i+r -> their
-    CHMAC(ch_me, &kp M &kp E &kp SPC) // m+e+space -> me
+    CHMAC(ch_me, &kp M &kp E &kp SPC) // m+e+dup -> me
     CHMAC(ch_him, &kp H &kp I &kp M &kp SPC) // b+i+m -> him
     CHMAC(ch_your, &kp Y &kp O &kp U &kp R &kp SPC) // y+o+r -> your
     CHMAC(ch_its, &kp I &kp T &kp S &kp SPC) // i+t+s -> its
     CHMAC(ch_two, &kp T &kp W &kp O &kp SPC) // t+w+o -> two
     CHMAC(ch_our, &kp O &kp U &kp R &kp SPC) // o+u+r -> our
-    CHMAC(ch_us, &kp U &kp S &kp SPC) // u+s+space -> us
-    CHMAC(ch_is, &kp I &kp S &kp SPC) // i+s+space -> is
+    CHMAC(ch_us, &kp U &kp S &kp SPC) // u+s+dup -> us
+    CHMAC(ch_is, &kp I &kp S &kp SPC) // i+s+dup -> is
     CHMAC(ch_was, &kp W &kp A &kp S &kp SPC) // w+a+s -> was
     CHMAC(ch_are, &kp A &kp R &kp E &kp SPC) // a+r+e -> are
     CHMAC(ch_had, &kp H &kp A &kp D &kp SPC) // h+a+d -> had
@@ -887,7 +887,7 @@ name: name##_macro {                  \
     CHMAC(ch_box, &kp B &kp O &kp X &kp SPC) // b+o+x -> box
     CHMAC(ch_noun, &kp N &kp O &kp U &kp N &kp SPC) // n+o+u -> noun
     CHMAC(ch_week, &kp W &kp E &kp E &kp K &kp SPC) // w+e+k -> week
-    CHMAC(ch_oh, &kp O &kp H &kp SPC) // o+h+space -> oh
+    CHMAC(ch_oh, &kp O &kp H &kp SPC) // o+h+dup -> oh
     CHMAC(ch_free, &kp F &kp R &kp E &kp E &kp SPC) // f+r+e -> free
     CHMAC(ch_dry, &kp D &kp R &kp Y &kp SPC) // d+r+y -> dry
     CHMAC(ch_ago, &kp A &kp G &kp O &kp SPC) // a+g+o -> ago
@@ -895,7 +895,7 @@ name: name##_macro {                  \
     CHMAC(ch_hot, &kp H &kp O &kp T &kp SPC) // h+o+t -> hot
     CHMAC(ch_ball, &kp B &kp A &kp L &kp L &kp SPC) // b+a+l -> ball
     CHMAC(ch_yet, &kp Y &kp E &kp T &kp SPC) // y+e+t -> yet
-    CHMAC(ch_am, &kp A &kp M &kp SPC) // a+m+space -> am
+    CHMAC(ch_am, &kp A &kp M &kp SPC) // a+m+dup -> am
     CHMAC(ch_arm, &kp A &kp R &kp M &kp SPC) // a+r+m -> arm
     CHMAC(ch_ice, &kp I &kp C &kp E &kp SPC) // i+c+e -> ice
     CHMAC(ch_matter, &kp M &kp A &kp T &kp T &kp E &kp R &kp SPC) // m+a+t -> matter
