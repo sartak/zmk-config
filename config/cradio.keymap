@@ -234,17 +234,19 @@ behaviors {                                \
   };
 };
 
-// Tap to toggle layer, chord to momentarily switch
-#define LYR(layer) &mo_tog layer layer
+#define LTK(layer, key) &lt layer key
+
+// Tap to repeat, hold to momentarily layer
+#define LTDUP(layer) &mo_dup layer 0
 / {
   behaviors {
-    mo_tog: behavior_mo_tog {
+    mo_dup: behavior_mo_dup {
       compatible = "zmk,behavior-hold-tap";
-      label = "mo_tog";
+      label = "mo_dup";
       #binding-cells = <2>;
       flavor = "hold-preferred";
       tapping-term-ms = <200>;
-      bindings = <&mo>, <&tog>;
+      bindings = <&mo>, <&key_repeat>;
     };
   };
 };
@@ -286,7 +288,7 @@ behaviors {                                \
         AG(W)  AG(L)  AG(Y)  AG(P)  AG(B)    AG(Z)  AG(F)  AG(O)          AG(U)               HPT(ESC, APOS)
         AG(C)  AG(R)  AG(S)  AG(T)  AG(G)    AG(M)  AG(N)  AG(E)          AG(I)               AG(A)
         AG(Q)  AG(J)  AG(V)  AG(D)  AG(K)    AG(X)  AG(H)  HPT(TAB, DOT)  HPT(ALFRED, COMMA)  AG(RET)
-             LYR(SYMBOL)  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LYR(NUMBER)
+           LTDUP(SYMBOL)  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LTK(NUMBER, TAB)
       >;
     };
 
@@ -295,7 +297,7 @@ behaviors {                                \
         DAG(W)  DAG(L)  DAG(Y)  DAG(P)  DAG(B)    DAG(Z)  DAG(F)  DAG(O)                  DAG(U)                        &hold_prefer_apos ESC 0
         DAG(C)  DAG(R)  DAG(S)  DAG(T)  DAG(G)    DAG(M)  DAG(N)  DAG(E)                  DAG(I)                        DAG(A)
         DAG(Q)  DAG(J)  DAG(V)  DAG(D)  DAG(K)    DAG(X)  DAG(H)  &hold_prefer_dot TAB 0  &hold_prefer_comma ALFRED 0   DAG(RET)
-                  LYR(SYMBOL)  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LYR(NUMBER)
+                LTDUP(SYMBOL)  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LTK(NUMBER, TAB)
       >;
     };
 
@@ -304,7 +306,7 @@ behaviors {                                \
         AG(GRAVE)      AG(TILDE)     AG(BACKSLASH)   AG(LEFT_BRACE)  AG(DOLLAR)      AG(PERCENT)  AG(RIGHT_BRACE)  AG(SLASH)      AG(POUND)           HPT(ESC, APOS)
         AG(AMPERSAND)  AG(ASTERISK)  AG(EQUAL)       AG(LPAR)        AG(LT)          AG(GT)       AG(RPAR)         AG(MINUS)      AG(PLUS)            AG(PIPE)
         AG(MDASH)      AG(AT)        AG(UNDERSCORE)  AG(LBKT)        AG(ELLIPSIS)    AG(CARET)    AG(RBKT)         HPT(TAB, DOT)  HPT(ALFRED, COMMA)  AG(RET)
-                                                       &to ALPHA  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LYR(NUMBER)
+                                                       &to ALPHA  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LTK(NUMBER, TAB)
       >;
     };
 
@@ -313,7 +315,7 @@ behaviors {                                \
         &kp C_BRI_UP  AG(N6)  AG(N5)  AG(N4)  &kp SCREENSHOT    &kp C_MUTE    &kp C_PREV  &kp C_PP       &kp C_NEXT          HPT(ESC, APOS)
         &kp LANGUAGE  AG(N3)  AG(N2)  AG(N1)  AG(N0)            &kp C_VOL_UP  AG(LEFT)    AG(DOWN)       AG(UP)              AG(RIGHT)
         &kp C_BRI_DN  AG(N9)  AG(N8)  AG(N7)  &kp LOCKSCR       &kp C_VOL_DN  &zoom       HPT(TAB, DOT)  HPT(ALFRED, COMMA)  AG(RET)
-                                  &to ALPHA  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LYR(SYMBOL)
+                                  &to ALPHA  SM(LSHFT, BSPC)    SM(LCTRL, SPC)  LTDUP(SYMBOL)
       >;
     };
 
