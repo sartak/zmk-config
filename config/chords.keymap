@@ -79,7 +79,7 @@ chord_##name {                                    \
     CHORD(ch_which, &ch_which, 26 18 10) // h+i+c -> which
     CHORD(ch_one, &ch_one, 7 16 17) // o+n+e -> one
     CHORD(ch_would, &ch_would, 0 7 8) // w+o+u -> would
-    CHORD(ch_all, &ch_all, 19 1 25) // a+l+x -> all
+    CHORD(ch_all, &ch_all, 19 1 30) // a+l+dup -> all
     CHORD(ch_will, &ch_will, 0 18 1) // w+i+l -> will
     CHORD(ch_there, &ch_there, 13 26 11) // t+h+r -> there
     CHORD(ch_say, &ch_say, 12 19 2) // s+a+y -> say
@@ -114,7 +114,7 @@ chord_##name {                                    \
     CHORD(ch_see, &ch_see, 12 17 24) // s+e+k -> see
     CHORD(ch_use, &ch_use, 8 12 17) // u+s+e -> use
     CHORD(ch_get, &ch_get, 14 17 13) // g+e+t -> get
-    CHORD(ch_like, &ch_like, 1 18 24) // l+i+k -> like
+    CHORD(ch_like, &ch_like, 18 17 30) // i+e+dup -> like
     CHORD(ch_then, &ch_then, 13 17 16) // t+e+n -> then
     CHORD(ch_first, &ch_first, 6 11 12) // f+r+s -> first
     CHORD(ch_any, &ch_any, 19 16 2) // a+n+y -> any
@@ -128,7 +128,7 @@ chord_##name {                                    \
     CHORD(ch_most, &ch_most, 15 7 13) // m+o+t -> most
     CHORD(ch_even, &ch_even, 17 22 16) // e+v+n -> even
     CHORD(ch_find, &ch_find, 6 18 23) // f+i+d -> find
-    CHORD(ch_day, &ch_day, 23 19 2) // d+a+y -> day
+    CHORD(ch_day, &ch_day, 19 2 30) // a+y+dup -> day
     CHORD(ch_also, &ch_also, 19 1 7) // a+l+o -> also
     CHORD(ch_after, &ch_after, 6 13 11) // f+t+r -> after
     CHORD(ch_way, &ch_way, 0 19 2) // w+a+y -> way
@@ -169,9 +169,9 @@ chord_##name {                                    \
     CHORD(ch_tell, &ch_tell, 13 17 1) // t+e+l -> tell
     CHORD(ch_write, &ch_write, 11 18 17) // r+i+e -> write
     CHORD(ch_become, &ch_become, 10 15 17) // c+m+e -> become
-    CHORD(ch_here, &ch_here, 21 26 17) // j+h+e -> here
-    CHORD(ch_show, &ch_show, 12 26 0) // s+h+w -> show
-    CHORD(ch_house, &ch_house, 26 7 12) // h+o+s -> house
+    CHORD(ch_here, &ch_here, 26 11 30) // h+r+dup -> here
+    CHORD(ch_show, &ch_show, 12 26 30) // s+h+dup -> show
+    CHORD(ch_house, &ch_house, 7 12 17) // o+s+e -> house
     CHORD(ch_both, &ch_both, 4 7 26) // b+o+h -> both
     CHORD(ch_between, &ch_between, 4 17 16) // b+e+n -> between
     CHORD(ch_need, &ch_need, 13 16 23) // t+n+d -> need
@@ -219,7 +219,7 @@ chord_##name {                                    \
     CHORD(ch_present, &ch_present, 11 16 13) // r+n+t -> present
     CHORD(ch_without, &ch_without, 18 13 7) // i+t+o -> without
     CHORD(ch_again, &ch_again, 19 14 18) // a+g+i -> again
-    CHORD(ch_hold, &ch_hold, 26 7 23) // h+o+d -> hold
+    CHORD(ch_hold, &ch_hold, 26 23 30) // h+d+dup -> hold
     CHORD(ch_govern, &ch_govern, 14 11 16) // g+r+n -> govern
     CHORD(ch_around, &ch_around, 19 11 23) // a+r+d -> around
     CHORD(ch_possibl, &ch_possibl, 3 12 17) // p+s+e -> possible
@@ -230,13 +230,13 @@ chord_##name {                                    \
     CHORD(ch_problem, &ch_problem, 1 17 15) // l+e+m -> problem
     CHORD(ch_however, &ch_however, 26 17 22) // h+e+v -> however
     CHORD(ch_lead, &ch_lead, 17 19 23) // e+a+d -> lead
-    CHORD(ch_system, &ch_system, 12 13 15) // s+t+m -> system
+    CHORD(ch_system, &ch_system, 12 2 13) // s+y+t -> system
     CHORD(ch_set, &ch_set, 12 17 13) // s+e+t -> set
     CHORD(ch_order, &ch_order, 7 11 23) // o+r+d -> order
     CHORD(ch_eye, &ch_eye, 17 2 25) // e+y+x -> eye
     CHORD(ch_plan, &ch_plan, 3 1 16) // p+l+n -> plan
     CHORD(ch_run, &ch_run, 11 8 16) // r+u+n -> run
-    CHORD(ch_keep, &ch_keep, 24 17 25) // k+e+x -> keep
+    CHORD(ch_keep, &ch_keep, 17 3 30) // e+p+dup -> keep
     CHORD(ch_face, &ch_face, 6 19 10) // f+a+c -> face
     CHORD(ch_fact, &ch_fact, 6 10 13) // f+c+t -> fact
     CHORD(ch_group, &ch_group, 14 7 8) // g+o+u -> group
@@ -331,7 +331,7 @@ chord_##name {                                    \
     CHORD(ch_white, &ch_white, 0 18 17) // w+i+e -> white
     CHORD(ch_childre, &ch_childre, 26 18 23) // h+i+d -> children
     CHORD(ch_got, &ch_got, 14 7 13) // g+o+t -> got
-    CHORD(ch_walk, &ch_walk, 19 1 24) // a+l+k -> walk
+    CHORD(ch_walk, &ch_walk, 0 19 30) // w+a+dup -> walk
     CHORD(ch_example, &ch_example, 15 3 1) // m+p+l -> example
     CHORD(ch_always, &ch_always, 1 0 2) // l+w+y -> always
     CHORD(ch_music, &ch_music, 15 12 10) // m+s+c -> music
@@ -467,7 +467,6 @@ chord_##name {                                    \
     CHORD(ch_hey, &ch_hey, 26 17 2) // h+e+y -> hey
     CHORD(ch_return, &ch_return, 11 17 13) // r+e+t -> return
     CHORD(ch_probabl, &ch_probabl, 3 4 1 2) // p+b+l+y -> probably
-    CHORD(ch_thank_y, &ch_thank_y, 13 19 2) // t+a+y -> thank you
     CHORD(ch_thanks, &ch_thanks, 13 16 12) // t+n+s -> thanks
     CHORD(ch_i_ve, &ch_i_ve, 18 22 17) // i+v+e -> I've
     CHORD(ch_per, &ch_per, 3 17 11) // p+e+r -> per
@@ -475,6 +474,19 @@ chord_##name {                                    \
     CHORD(ch_nil, &ch_nil, 16 18 1) // n+i+l -> nil
     CHORD(ch_array, &ch_array, 19 11 2) // a+r+y -> array
     CHORD(ch_sort, &ch_sort, 12 11 13) // s+r+t -> sort
+    CHORD(ch_http_, &ch_http_, 26 13 3) // h+t+p -> http://
+    CHORD(ch_https_, &ch_https_, 26 13 3 12) // h+t+p+s -> https://
+    CHORD(ch_in_the, &ch_in_the, 18 16 13 17) // i+n+t+e -> in the
+    CHORD(ch_of_the, &ch_of_the, 7 13 17 30) // o+t+e+dup -> of the
+    CHORD(ch_to_be, &ch_to_be, 7 4 17 30) // o+b+e+dup -> to be
+    CHORD(ch_to_the, &ch_to_the, 13 26 17 30) // t+h+e+dup -> to the
+    CHORD(ch_and_the, &ch_and_the, 19 16 13 26) // a+n+t+h -> and the
+    CHORD(ch_and_i, &ch_and_i, 19 16 23 18) // a+n+d+i -> and I
+    CHORD(ch_on_the, &ch_on_the, 7 16 26 17) // o+n+h+e -> on the
+    CHORD(ch_it_is, &ch_it_is, 18 13 12 30) // i+t+s+dup -> it is
+    CHORD(ch_if_you, &ch_if_you, 6 2 7 8) // f+y+o+u -> if you
+    CHORD(ch_the_wor, &ch_the_wor, 13 26 17 0) // t+h+e+w -> the world
+    CHORD(ch_in_a, &ch_in_a, 18 16 19 30) // i+n+a+dup -> in a
     CHORD(ch_the_qui, &ch_the_qui, 4 20 25 9) // b+q+x+' -> the quick brown fox jumps over the lazy dog
     CHORD(ch_elberet, &ch_elberet, 17 1 4 26) // e+l+b+h -> Elbereth
     CHORD(ch_shawn, &ch_shawn, 26 19 16) // h+a+n -> Shawn
@@ -550,7 +562,7 @@ name: name##_macro {                  \
     CHMAC(ch_which, &kp W &kp H &kp I &kp C &kp H &kp SPC) // h+i+c -> which
     CHMAC(ch_one, &kp O &kp N &kp E &kp SPC) // o+n+e -> one
     CHMAC(ch_would, &kp W &kp O &kp U &kp L &kp D &kp SPC) // w+o+u -> would
-    CHMAC(ch_all, &kp A &kp L &kp L &kp SPC) // a+l+x -> all
+    CHMAC(ch_all, &kp A &kp L &kp L &kp SPC) // a+l+dup -> all
     CHMAC(ch_will, &kp W &kp I &kp L &kp L &kp SPC) // w+i+l -> will
     CHMAC(ch_there, &kp T &kp H &kp E &kp R &kp E &kp SPC) // t+h+r -> there
     CHMAC(ch_say, &kp S &kp A &kp Y &kp SPC) // s+a+y -> say
@@ -585,7 +597,7 @@ name: name##_macro {                  \
     CHMAC(ch_see, &kp S &kp E &kp E &kp SPC) // s+e+k -> see
     CHMAC(ch_use, &kp U &kp S &kp E &kp SPC) // u+s+e -> use
     CHMAC(ch_get, &kp G &kp E &kp T &kp SPC) // g+e+t -> get
-    CHMAC(ch_like, &kp L &kp I &kp K &kp E &kp SPC) // l+i+k -> like
+    CHMAC(ch_like, &kp L &kp I &kp K &kp E &kp SPC) // i+e+dup -> like
     CHMAC(ch_then, &kp T &kp H &kp E &kp N &kp SPC) // t+e+n -> then
     CHMAC(ch_first, &kp F &kp I &kp R &kp S &kp T &kp SPC) // f+r+s -> first
     CHMAC(ch_any, &kp A &kp N &kp Y &kp SPC) // a+n+y -> any
@@ -599,7 +611,7 @@ name: name##_macro {                  \
     CHMAC(ch_most, &kp M &kp O &kp S &kp T &kp SPC) // m+o+t -> most
     CHMAC(ch_even, &kp E &kp V &kp E &kp N &kp SPC) // e+v+n -> even
     CHMAC(ch_find, &kp F &kp I &kp N &kp D &kp SPC) // f+i+d -> find
-    CHMAC(ch_day, &kp D &kp A &kp Y &kp SPC) // d+a+y -> day
+    CHMAC(ch_day, &kp D &kp A &kp Y &kp SPC) // a+y+dup -> day
     CHMAC(ch_also, &kp A &kp L &kp S &kp O &kp SPC) // a+l+o -> also
     CHMAC(ch_after, &kp A &kp F &kp T &kp E &kp R &kp SPC) // f+t+r -> after
     CHMAC(ch_way, &kp W &kp A &kp Y &kp SPC) // w+a+y -> way
@@ -640,9 +652,9 @@ name: name##_macro {                  \
     CHMAC(ch_tell, &kp T &kp E &kp L &kp L &kp SPC) // t+e+l -> tell
     CHMAC(ch_write, &kp W &kp R &kp I &kp T &kp E &kp SPC) // r+i+e -> write
     CHMAC(ch_become, &kp B &kp E &kp C &kp O &kp M &kp E &kp SPC) // c+m+e -> become
-    CHMAC(ch_here, &kp H &kp E &kp R &kp E &kp SPC) // j+h+e -> here
-    CHMAC(ch_show, &kp S &kp H &kp O &kp W &kp SPC) // s+h+w -> show
-    CHMAC(ch_house, &kp H &kp O &kp U &kp S &kp E &kp SPC) // h+o+s -> house
+    CHMAC(ch_here, &kp H &kp E &kp R &kp E &kp SPC) // h+r+dup -> here
+    CHMAC(ch_show, &kp S &kp H &kp O &kp W &kp SPC) // s+h+dup -> show
+    CHMAC(ch_house, &kp H &kp O &kp U &kp S &kp E &kp SPC) // o+s+e -> house
     CHMAC(ch_both, &kp B &kp O &kp T &kp H &kp SPC) // b+o+h -> both
     CHMAC(ch_between, &kp B &kp E &kp T &kp W &kp E &kp E &kp N &kp SPC) // b+e+n -> between
     CHMAC(ch_need, &kp N &kp E &kp E &kp D &kp SPC) // t+n+d -> need
@@ -690,7 +702,7 @@ name: name##_macro {                  \
     CHMAC(ch_present, &kp P &kp R &kp E &kp S &kp E &kp N &kp T &kp SPC) // r+n+t -> present
     CHMAC(ch_without, &kp W &kp I &kp T &kp H &kp O &kp U &kp T &kp SPC) // i+t+o -> without
     CHMAC(ch_again, &kp A &kp G &kp A &kp I &kp N &kp SPC) // a+g+i -> again
-    CHMAC(ch_hold, &kp H &kp O &kp L &kp D &kp SPC) // h+o+d -> hold
+    CHMAC(ch_hold, &kp H &kp O &kp L &kp D &kp SPC) // h+d+dup -> hold
     CHMAC(ch_govern, &kp G &kp O &kp V &kp E &kp R &kp N &kp SPC) // g+r+n -> govern
     CHMAC(ch_around, &kp A &kp R &kp O &kp U &kp N &kp D &kp SPC) // a+r+d -> around
     CHMAC(ch_possibl, &kp P &kp O &kp S &kp S &kp I &kp B &kp L &kp E &kp SPC) // p+s+e -> possible
@@ -701,13 +713,13 @@ name: name##_macro {                  \
     CHMAC(ch_problem, &kp P &kp R &kp O &kp B &kp L &kp E &kp M &kp SPC) // l+e+m -> problem
     CHMAC(ch_however, &kp H &kp O &kp W &kp E &kp V &kp E &kp R &kp SPC) // h+e+v -> however
     CHMAC(ch_lead, &kp L &kp E &kp A &kp D &kp SPC) // e+a+d -> lead
-    CHMAC(ch_system, &kp S &kp Y &kp S &kp T &kp E &kp M &kp SPC) // s+t+m -> system
+    CHMAC(ch_system, &kp S &kp Y &kp S &kp T &kp E &kp M &kp SPC) // s+y+t -> system
     CHMAC(ch_set, &kp S &kp E &kp T &kp SPC) // s+e+t -> set
     CHMAC(ch_order, &kp O &kp R &kp D &kp E &kp R &kp SPC) // o+r+d -> order
     CHMAC(ch_eye, &kp E &kp Y &kp E &kp SPC) // e+y+x -> eye
     CHMAC(ch_plan, &kp P &kp L &kp A &kp N &kp SPC) // p+l+n -> plan
     CHMAC(ch_run, &kp R &kp U &kp N &kp SPC) // r+u+n -> run
-    CHMAC(ch_keep, &kp K &kp E &kp E &kp P &kp SPC) // k+e+x -> keep
+    CHMAC(ch_keep, &kp K &kp E &kp E &kp P &kp SPC) // e+p+dup -> keep
     CHMAC(ch_face, &kp F &kp A &kp C &kp E &kp SPC) // f+a+c -> face
     CHMAC(ch_fact, &kp F &kp A &kp C &kp T &kp SPC) // f+c+t -> fact
     CHMAC(ch_group, &kp G &kp R &kp O &kp U &kp P &kp SPC) // g+o+u -> group
@@ -802,7 +814,7 @@ name: name##_macro {                  \
     CHMAC(ch_white, &kp W &kp H &kp I &kp T &kp E &kp SPC) // w+i+e -> white
     CHMAC(ch_childre, &kp C &kp H &kp I &kp L &kp D &kp R &kp E &kp N &kp SPC) // h+i+d -> children
     CHMAC(ch_got, &kp G &kp O &kp T &kp SPC) // g+o+t -> got
-    CHMAC(ch_walk, &kp W &kp A &kp L &kp K &kp SPC) // a+l+k -> walk
+    CHMAC(ch_walk, &kp W &kp A &kp L &kp K &kp SPC) // w+a+dup -> walk
     CHMAC(ch_example, &kp E &kp X &kp A &kp M &kp P &kp L &kp E &kp SPC) // m+p+l -> example
     CHMAC(ch_always, &kp A &kp L &kp W &kp A &kp Y &kp S &kp SPC) // l+w+y -> always
     CHMAC(ch_music, &kp M &kp U &kp S &kp I &kp C &kp SPC) // m+s+c -> music
@@ -938,7 +950,6 @@ name: name##_macro {                  \
     CHMAC(ch_hey, &kp H &kp E &kp Y &kp SPC) // h+e+y -> hey
     CHMAC(ch_return, &kp R &kp E &kp T &kp U &kp R &kp N &kp SPC) // r+e+t -> return
     CHMAC(ch_probabl, &kp P &kp R &kp O &kp B &kp A &kp B &kp L &kp Y &kp SPC) // p+b+l+y -> probably
-    CHMAC(ch_thank_y, &kp T &kp H &kp A &kp N &kp K &kp SPC &kp Y &kp O &kp U &kp SPC) // t+a+y -> thank you
     CHMAC(ch_thanks, &kp T &kp H &kp A &kp N &kp K &kp S &kp SPC) // t+n+s -> thanks
     CHMAC(ch_i_ve, &kp LS(I) &kp APOS &kp V &kp E &kp SPC) // i+v+e -> I've
     CHMAC(ch_per, &kp P &kp E &kp R &kp SPC) // p+e+r -> per
@@ -946,6 +957,19 @@ name: name##_macro {                  \
     CHMAC(ch_nil, &kp N &kp I &kp L &kp SPC) // n+i+l -> nil
     CHMAC(ch_array, &kp A &kp R &kp R &kp A &kp Y &kp SPC) // a+r+y -> array
     CHMAC(ch_sort, &kp S &kp O &kp R &kp T &kp SPC) // s+r+t -> sort
+    MACRO(ch_http_, &kp H &kp T &kp T &kp P &kp COLON &kp SLASH &kp SLASH) // h+t+p -> http://
+    MACRO(ch_https_, &kp H &kp T &kp T &kp P &kp S &kp COLON &kp SLASH &kp SLASH) // h+t+p+s -> https://
+    CHMAC(ch_in_the, &kp I &kp N &kp SPC &kp T &kp H &kp E &kp SPC) // i+n+t+e -> in the
+    CHMAC(ch_of_the, &kp O &kp F &kp SPC &kp T &kp H &kp E &kp SPC) // o+t+e+dup -> of the
+    CHMAC(ch_to_be, &kp T &kp O &kp SPC &kp B &kp E &kp SPC) // o+b+e+dup -> to be
+    CHMAC(ch_to_the, &kp T &kp O &kp SPC &kp T &kp H &kp E &kp SPC) // t+h+e+dup -> to the
+    CHMAC(ch_and_the, &kp A &kp N &kp D &kp SPC &kp T &kp H &kp E &kp SPC) // a+n+t+h -> and the
+    CHMAC(ch_and_i, &kp A &kp N &kp D &kp SPC &kp LS(I) &kp SPC) // a+n+d+i -> and I
+    CHMAC(ch_on_the, &kp O &kp N &kp SPC &kp T &kp H &kp E &kp SPC) // o+n+h+e -> on the
+    CHMAC(ch_it_is, &kp I &kp T &kp SPC &kp I &kp S &kp SPC) // i+t+s+dup -> it is
+    CHMAC(ch_if_you, &kp I &kp F &kp SPC &kp Y &kp O &kp U &kp SPC) // f+y+o+u -> if you
+    CHMAC(ch_the_wor, &kp T &kp H &kp E &kp SPC &kp W &kp O &kp R &kp L &kp D &kp SPC) // t+h+e+w -> the world
+    CHMAC(ch_in_a, &kp I &kp N &kp SPC &kp A &kp SPC) // i+n+a+dup -> in a
     CHMAC(ch_the_qui, &kp T &kp H &kp E &kp SPC &kp Q &kp U &kp I &kp C &kp K &kp SPC &kp B &kp R &kp O &kp W &kp N &kp SPC &kp F &kp O &kp X &kp SPC &kp J &kp U &kp M &kp P &kp S &kp SPC &kp O &kp V &kp E &kp R &kp SPC &kp T &kp H &kp E &kp SPC &kp L &kp A &kp Z &kp Y &kp SPC &kp D &kp O &kp G) // b+q+x+' -> the quick brown fox jumps over the lazy dog
     MACRO(ch_elberet, &kp LS(E) &kp L &kp B &kp E &kp R &kp E &kp T &kp H) // e+l+b+h -> Elbereth
     CHMAC(ch_shawn, &kp LS(S) &kp H &kp A &kp W &kp N &kp SPC) // h+a+n -> Shawn
