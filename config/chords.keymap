@@ -41,6 +41,7 @@
 / {
   combos {
     compatible = "zmk,combos";
+    CHORD(ch_oneshot, &sl FUNCTION, 30 33)
     LAYER_CHORD(ch_excl_s, &ch_excl_s, 17 27, SENTENCE)
     LAYER_CHORD(ch_excl, &kp EXCL, 17 27, ALPHA SYMBOL NUMBER)
     LAYER_CHORD(ch_qmark_s, &ch_qmark_s, 18 28, SENTENCE)
