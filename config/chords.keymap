@@ -1,3 +1,16 @@
+#define str(s) #s
+
+#define THCHORD(name, tapMacro, holdMacro) \
+  name: name { \
+    compatible = "zmk,behavior-hold-tap"; \
+    label = str(name); \
+    #binding-cells = <2>; \
+    tapping_term_ms = <200>; \
+    quick_tap_ms = <0>; \
+    flavor = "tap-preferred"; \
+    bindings = <&holdMacro>, <&tapMacro>; \
+  };
+
 #define COMBO(name, keypress, keypos) \
   combo_##name { \
     timeout-ms = <60>; \
@@ -37,6 +50,11 @@
   };
 
 #include "personal.keymap"
+
+/ {
+  behaviors {
+  };
+};
 
 / {
   combos {

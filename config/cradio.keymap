@@ -83,7 +83,6 @@
 #define AG(keycode) HPT(LG(keycode), keycode)
 
 // Same, but dismisses sentence mode
-#define str(s) #s
 #define DISMISS_MACRO(key)                 \
 macros {                                   \
   sentence_##key: sentence_##key {         \
