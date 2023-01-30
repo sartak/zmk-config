@@ -53,12 +53,14 @@
 
 / {
   behaviors {
+    THCHORD(ht_delete_, ch_delete__t, ch_delete__h)
   };
 };
 
 / {
   combos {
     compatible = "zmk,combos";
+    CHORD(ch_delete_, &ht_delete_ 0 0, 31 32)
     CHORD(ch_oneshot, &sl FUNCTION, 30 33)
     LAYER_CHORD(ch_excl_s, &ch_excl_s, 17 27, SENTENCE)
     LAYER_CHORD(ch_excl, &kp EXCL, 17 27, ALPHA SYMBOL NUMBER)
@@ -535,6 +537,8 @@
 
 / {
   macros {
+    MACRO(ch_delete__t, &kp LA(BSPC))
+    MACRO(ch_delete__h, &sk LG(LA(LCTRL)))
     CHMAC(ch_excl_s, &kp BSPC &kp EXCL &kp SPC &sk LSHFT)
     CHMAC(ch_qmark_s, &kp BSPC &kp QMARK &kp SPC &sk LSHFT)
     CHMAC(ch_colon_s, &kp BSPC &kp COLON &kp SPC)
